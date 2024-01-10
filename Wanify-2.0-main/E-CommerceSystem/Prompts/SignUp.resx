@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="signUpPallette.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="signUpPallette.ButtonSpecs.FormClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABGdBTUEAALGPC/xhBQAAALpJREFUOE+N
+        k4ENgzAQAxmBETpCRmDzskE7AhuUDVJf6idIgTQnpcH/fkOJmHLOSeupNU8D4LM/IVYteGl1A+jbB2sU
+        3kV2Aqi7D/h/Pi5cgCYA7TrUwYCCG3AEsFtDOxjQsAEYeHiH+8EAg41n/g8GMi5lpLK41UdGzv1TRiro
+        ZMs1GGwEHhW9F9ULoGEDHP9Rez+AghvQvBzp6wAuXIDbt6p6G6CfrciB41D/HLBFgY9j6Bzt1w1z+gIf
+        TsEWfM5eZAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="signUpPallette.ButtonSpecs.FormMax.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAAKBJREFUOE/V
+        lNEJgDAMRDOCIziiG9kRHKkb6Ab1LkmLVMUW/NAHgZjLhVo0klIaEDNiRRyZpQK1xaQCPfQOFAMrV7hf
+        weNo1UsCGzbLTwSfUUCtPlFmpVjw/mbcpnxzUL7s0508QY9Z+71/A+84etpN8SLJH9mihQ7oMSu8niiu
+        N+M25ZuD7n7aljWSiRTfWCMTG7jYOKw+WcsaiYhJRGQHi40KU9Bx5z4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="signUpPallette.ButtonSpecs.FormMin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAECAYAAABREWWJAAAABGdBTUEAALGPC/xhBQAAACBJREFUGFdj
+        +P///wIgJgfMB2kmG1CsOQGID5CO/ycAANZH6eGGd3aJAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Terms and Conditions - Confidential Details Accumulation
+
+Please read the following terms and conditions ("Terms") carefully before using our e-commerce platform. By accessing or using our services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our platform.
+
+Confidential Details:
+1.1. Our e-commerce company ("Company") may collect certain confidential details from users ("Users") in order to provide efficient and personalized services. These details may include but are not limited to:
+a. Personal information: Name, address, email address, phone number, date of birth, and other identifying information.
+b. Financial information: Credit/debit card details, bank account information, and payment transaction history.
+c. Account information: Username, password, and other account-related details.
+d. Browsing and purchase history: Information about products viewed, purchased, or added to the cart.
+
+1.2. The Company collects these confidential details in accordance with its Privacy Policy. By using our platform, you acknowledge that you have read and agree to the terms of our Privacy Policy.
+
+Purpose of Accumulation:
+2.1. The Company accumulates confidential details for the following purposes:
+a. To personalize and improve your browsing experience on our platform.
+b. To process your orders and fulfill your purchases.
+c. To communicate with you regarding your account, orders, and customer support.
+d. To send you promotional offers, newsletters, or updates, with your consent.
+e. To detect and prevent fraudulent activities, unauthorized access, or other security issues.
+f. To comply with legal obligations and respond to lawful requests from authorities.
+
+Data Security:
+3.1. The Company takes reasonable measures to protect your confidential details from unauthorized access, alteration, disclosure, or destruction. However, no data transmission or storage system can be guaranteed as 100% secure. You acknowledge and accept that the Company cannot guarantee the absolute security of your confidential details.
+
+Third-Party Sharing:
+4.1. The Company may share your confidential details with trusted third parties, including but not limited to payment processors, delivery services, customer support providers, marketing agencies, and analytics service providers. These third parties will only have access to the necessary information to perform their services and are bound by confidentiality obligations.
+
+4.2. The Company may also share your confidential details if required by law, regulation, legal process, or government request. In such cases, we will make reasonable efforts to notify you unless prohibited by law.
+
+User Responsibilities:
+5.1. As a User, you are responsible for maintaining the confidentiality of your account information, including your username and password. You agree to promptly notify the Company of any unauthorized use or suspected breach of security.
+
+5.2. You understand and acknowledge that you are solely responsible for any content, information, or data you provide or transmit through our platform, including any confidential details.
+
+Consent and Opt-Out:
+6.1. By using our platform, you consent to the accumulation, processing, and sharing of your confidential details as outlined in these Terms and our Privacy Policy.
+
+6.2. You have the right to withdraw your consent at any time by contacting our customer support. However, withdrawing consent may limit your access to certain features and services provided by the Company.
+
+Modifications to the Terms:
+7.1. The Company reserves the right to modify or update these Terms at any time without prior notice. The revised Terms will be effective upon posting on our platform. It is your responsibility to review the Terms periodically.
+
+Governing Law and Jurisdiction:
+8.1. These Terms shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any disputes arising out of or</value>
+  </data>
+</root>
